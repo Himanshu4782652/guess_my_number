@@ -1,0 +1,106 @@
+/* Custom CSS for Guess My Number */
+
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f02a5c;
+  }
+  
+  .btn.new-game {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #f4f5f7;
+    color: rgb(49, 252, 8);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .high-score {
+    display: flex;
+    align-items: center;
+  }
+  
+  .high-score ion-icon {
+    margin-right: 5px;
+  }
+  
+  .current-high-score {
+    font-weight: bold;
+  }
+  
+  /* Main section styles */
+  .main-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .main-section .message {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .secret-number {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Number section styles */
+  .number-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .input-number {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgb(48, 243, 22);
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .btn.btn-check {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: rgb(8, 219, 247);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Score section styles */
+  .score-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .score-div {
+    margin-bottom: 10px;
+  }
+  
+  .score-div p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .score-div p span {
+    font-weight: bold;
+  }
+  
